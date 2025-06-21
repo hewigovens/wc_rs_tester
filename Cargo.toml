@@ -1,0 +1,9 @@
+[package]
+name = "wc_rs_tester"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wallet-core-rs = { git = "https://github.com/hewigovens/wallet-core.git", branch = "cargo-install-warnings2" }
+alloy-signer-local = { version = "1.0.9", features = ["mnemonic"] }
+anyhow = "1.0.98"
