@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-wallet-core-rs = { git = "https://github.com/hewigovens/wallet-core.git", branch = "cargo-install-warnings2" }
+wallet-core-rs = { git = "https://github.com/trustwallet/wallet-core.git", branch = "master" }
 alloy-signer-local = { version = "1.0.9", features = ["mnemonic"] }
 anyhow = "1.0.98"

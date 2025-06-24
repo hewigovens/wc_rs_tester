@@ -3194,7 +3194,7 @@ dependencies = [
 [[package]]
 name = "tw_any_coin"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_coin_registry",
@@ -3209,7 +3209,7 @@ dependencies = [
 [[package]]
 name = "tw_aptos"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "move-core-types",
  "serde",
@@ -3227,7 +3227,7 @@ dependencies = [
 [[package]]
 name = "tw_base58_address"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "serde",
  "tw_coin_entry",
@@ -3238,7 +3238,7 @@ dependencies = [
 [[package]]
 name = "tw_bech32_address"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "serde",
  "tw_coin_entry",
@@ -3251,7 +3251,7 @@ dependencies = [
 [[package]]
 name = "tw_binance"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "quick-protobuf",
  "serde",
@@ -3273,7 +3273,7 @@ dependencies = [
 [[package]]
 name = "tw_bitcoin"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bitcoin",
  "itertools 0.10.5",
@@ -3296,7 +3296,7 @@ dependencies = [
 [[package]]
 name = "tw_bitcoincash"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_bitcoin",
  "tw_coin_entry",
@@ -3312,7 +3312,7 @@ dependencies = [
 [[package]]
 name = "tw_coin_entry"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "derivation-path",
  "serde",
@@ -3329,7 +3329,7 @@ dependencies = [
 [[package]]
 name = "tw_coin_registry"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "itertools 0.10.5",
  "lazy_static",
@@ -3373,7 +3373,7 @@ dependencies = [
 [[package]]
 name = "tw_cosmos"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_cosmos_sdk",
@@ -3384,7 +3384,7 @@ dependencies = [
 [[package]]
 name = "tw_cosmos_sdk"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "pb-rs",
  "quick-protobuf",
@@ -3404,7 +3404,7 @@ dependencies = [
 [[package]]
 name = "tw_decred"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_base58_address",
  "tw_bitcoin",
@@ -3420,7 +3420,7 @@ dependencies = [
 [[package]]
 name = "tw_encoding"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bcs",
  "bech32",
@@ -3435,7 +3435,7 @@ dependencies = [
 [[package]]
 name = "tw_ethereum"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_evm",
@@ -3446,7 +3446,7 @@ dependencies = [
 [[package]]
 name = "tw_evm"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "itertools 0.10.5",
  "lazy_static",
@@ -3457,6 +3457,7 @@ dependencies = [
  "tw_encoding",
  "tw_hash",
  "tw_keypair",
+ "tw_macros",
  "tw_memory",
  "tw_misc",
  "tw_number",
@@ -3466,7 +3467,7 @@ dependencies = [
 [[package]]
 name = "tw_greenfield"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "serde",
  "serde_json",
@@ -3485,7 +3486,7 @@ dependencies = [
 [[package]]
 name = "tw_groestlcoin"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_base58_address",
  "tw_bitcoin",
@@ -3501,7 +3502,7 @@ dependencies = [
 [[package]]
 name = "tw_hash"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "blake-hash",
  "blake2b-ref",
@@ -3521,7 +3522,7 @@ dependencies = [
 [[package]]
 name = "tw_internet_computer"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "pb-rs",
  "quick-protobuf",
@@ -3537,7 +3538,7 @@ dependencies = [
 [[package]]
 name = "tw_keypair"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bitcoin",
  "blake2",
@@ -3568,7 +3569,7 @@ dependencies = [
 [[package]]
 name = "tw_komodo"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_bitcoin",
  "tw_coin_entry",
@@ -3581,7 +3582,7 @@ dependencies = [
 [[package]]
 name = "tw_macros"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "derive-syn-parse",
  "proc-macro2",
@@ -3594,12 +3595,12 @@ dependencies = [
 [[package]]
 name = "tw_memory"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 
 [[package]]
 name = "tw_misc"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "serde",
  "zeroize",
@@ -3608,7 +3609,7 @@ dependencies = [
 [[package]]
 name = "tw_native_evmos"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_cosmos_sdk",
@@ -3621,7 +3622,7 @@ dependencies = [
 [[package]]
 name = "tw_native_injective"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_cosmos_sdk",
@@ -3634,7 +3635,7 @@ dependencies = [
 [[package]]
 name = "tw_number"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "lazy_static",
  "primitive-types 0.10.1",
@@ -3647,7 +3648,7 @@ dependencies = [
 [[package]]
 name = "tw_pactus"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bech32",
  "byteorder",
@@ -3662,7 +3663,7 @@ dependencies = [
 [[package]]
 name = "tw_polkadot"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_encoding",
@@ -3679,7 +3680,7 @@ dependencies = [
 [[package]]
 name = "tw_polymesh"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_encoding",
@@ -3696,7 +3697,7 @@ dependencies = [
 [[package]]
 name = "tw_proto"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "pb-rs",
  "quick-protobuf",
@@ -3705,7 +3706,7 @@ dependencies = [
 [[package]]
 name = "tw_ripple"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bigdecimal",
  "byteorder",
@@ -3726,7 +3727,7 @@ dependencies = [
 [[package]]
 name = "tw_ronin"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_evm",
@@ -3738,7 +3739,7 @@ dependencies = [
 [[package]]
 name = "tw_scale"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_hash",
  "tw_number",
@@ -3747,7 +3748,7 @@ dependencies = [
 [[package]]
 name = "tw_solana"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bincode",
  "borsh",
@@ -3766,7 +3767,7 @@ dependencies = [
 [[package]]
 name = "tw_ss58_address"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "serde",
  "tw_coin_entry",
@@ -3780,7 +3781,7 @@ dependencies = [
 [[package]]
 name = "tw_substrate"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_encoding",
@@ -3796,7 +3797,7 @@ dependencies = [
 [[package]]
 name = "tw_sui"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "indexmap 2.9.0",
  "move-core-types",
@@ -3815,7 +3816,7 @@ dependencies = [
 [[package]]
 name = "tw_thorchain"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_coin_entry",
  "tw_cosmos_sdk",
@@ -3827,7 +3828,7 @@ dependencies = [
 [[package]]
 name = "tw_ton"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "lazy_static",
  "tw_coin_entry",
@@ -3844,7 +3845,7 @@ dependencies = [
 [[package]]
 name = "tw_ton_sdk"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bitreader",
  "bitstream-io",
@@ -3862,7 +3863,7 @@ dependencies = [
 [[package]]
 name = "tw_utxo"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bech32",
  "bitcoin",
@@ -3884,7 +3885,7 @@ dependencies = [
 [[package]]
 name = "tw_zcash"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "tw_base58_address",
  "tw_bitcoin",
@@ -4002,7 +4003,7 @@ dependencies = [
 [[package]]
 name = "wallet-core-rs"
 version = "0.1.0"
-source = "git+https://github.com/hewigovens/wallet-core.git?branch=cargo-install-warnings2#2e116fc4245204ff4d13842f758d96786df33648"
+source = "git+https://github.com/trustwallet/wallet-core.git?branch=master#6e9567b5f9efc965e4fc1af00ecf485c4bf040a1"
 dependencies = [
  "bitreader",
  "tw_any_coin",
@@ -4010,6 +4011,7 @@ dependencies = [
  "tw_coin_registry",
  "tw_encoding",
  "tw_ethereum",
+ "tw_evm",
  "tw_hash",
  "tw_keypair",
  "tw_macros",
